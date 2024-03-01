@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 1%;
+  color: #000000;
+  margin: 0;
+}
+
+.search-bar {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.all-contacts-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .all-contacts-btn:hover {
+  background-color: #0056b3;
+} */
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container h2 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="file"] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-contact-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bffa2;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-contact-btn:hover {
+  background-color: #007bff;
+}
+
+/* ------------------ */
+
+.abstand{
+  margin-top: 10%;
+}
+
+.contact-container {
+  border: solid red;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: flex-start; /* So that items stack vertically */
+}
+
+.contact-info {
+  margin-right: 20px;
+  width: 300px;
+}
+
+.photo-upload {
+  display: flex;
+  height: 200px;
+  width: 200px; 
+  border: solid grey;
+}
+
+
+/* -.--- */
+
+.dummy-div{
+  padding: 20px;
+  width: 100px;
+  height: 130px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 7px;
+
+}
+
+.dummy-button{
+  margin-top: 1%;
+}
+
+
+
+.delete-contact{
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6868b3;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-contact:hover{
+  background-color: #ff0000;
+}
+
+.container-flexbox{
+  display: flex;
+}
+
+
+/* ................ */
+.contact-card{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
