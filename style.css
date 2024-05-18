@@ -47,6 +47,7 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #efefef;
 }
 
 .container h2 {
@@ -73,14 +74,14 @@ form input[type="file"] {
   padding: 8px 15px;
   border: none;
   border-radius: 5px;
-  background-color: #007bffa2;
+  background-color: #007bff;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .add-contact-btn:hover {
-  background-color: #007bff;
+  background-color: #064588;
 }
 
 /* ------------------ */
@@ -161,5 +162,6 @@ form input[type="file"] {
   margin-bottom: 10px;
   margin: 20px auto;
   max-width: 600px;
+  background-color: #efefef;
 }
 

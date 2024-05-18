@@ -10,14 +10,16 @@
     <h1 class="logo">Mein Phone Book</h1>
 
     <nav class="navbar">
-      <button class="add-contact-btn">Alle Kontakte</button>
+      <button class="add-contact-btn" href="http://127.0.0.1:5500/index.html">
+        Alle Kontakte
+      </button>
       <input type="text" class="search-bar" placeholder="Suche..." />
     </nav>
 
     <!-- Formular zum erstellen des Kontakts -->
     <div class="container">
       <h2>Kontakt hinzufügen</h2>
-      <form action="#">
+      <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
 
@@ -31,6 +33,8 @@
         <input type="email" id="email" name="email" required />
 
         <label for="photo">Lade dein Foto hoch:</label>
+
+        <!-- Muss Photo mit die const getFormaData??? -->
         <input type="file" id="photo" name="photo" accept="image/*" />
 
         <button id="addContact" type="submit" class="add-contact-btn">
@@ -40,16 +44,16 @@
     </div>
     <br />
 
-      <!-- Karte für neue Kontakte -->
-    <div id="contactContainer" class="contact-card">
+    <!-- Karte für neue Kontakte -->
+    <div id="contactContainerID" class="contact-card">
       <h2 class="container">Your Friends!</h2>
     </div>
 
-    
+    <!-- DUMMYS -->
+    <div id="contactList"></div>
 
     <!-- import Main-JS -->
-    <script src="main.js" type="module"></script>
-
-  
+    <script src="/javascriptBundle.js/main.js" type="module"></script>
+    <script src="/javascriptBundle.js/formValidation.js" type="module"></script>
   </body>
 </html>
